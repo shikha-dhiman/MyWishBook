@@ -1,0 +1,5 @@
+@include('User.Layouts.header')
+@include('User.Layouts.nav-header')
+@include('User.Layouts.sidebar')
+	@yield('content')
+@include('User.Layouts.footer')
